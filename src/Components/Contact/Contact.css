@@ -1,0 +1,101 @@
+.c1{
+    width: 90%;
+    background-color: black;
+    color: white;
+}
+.cc1{
+    width: 90%;
+    background-color: white;
+    color: black;
+}
+.c2{
+    display: flex; 
+}
+.c3{
+    width: 45%;
+  margin-top: 100px;
+  margin-left: 200px;
+  margin-right: -200px;
+  animation: fadein 3s;
+}
+.c3 h2{
+    font-size: 40px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.c3 p{
+    margin-top: 10px;
+    font-size: 17px;
+    margin: 10px 0px;
+    display: flex;
+    gap: 10px;
+}
+.c5{
+    padding: 7px 15px;
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+    background-color:white;
+    color: black;
+}
+.c55{
+    padding: 7px 15px;
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+    background-color:black;
+    color: white;
+}
+.c6{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.c6 input{
+    width: 500px;
+    height: 40px;
+    margin-top: 7px;
+    color: white;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    padding: 0px 5px;
+    background-color: gray;
+}
+.c6 textarea{
+    width: 500px;
+    height: 200px;
+    margin-top: 7px;
+    color: white;
+    padding: 0px 5px;
+    border-radius: 5px;
+    outline: none;
+    background-color: gray;
+}
+.c7{
+    width: 150px;
+    padding: 0px 5px;
+    margin-left: 5px;
+    margin-top: 10px;
+    padding: 7px 15px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: white;
+    border: none;
+    color: black;
+}
+.c77{
+    width: 150px;
+    margin-left: 5px;
+    margin-top: 10px;
+    padding: 7px 15px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: black;
+    border: none;
+    color: white;
+}
+::placeholder{
+    color: white;
+    opacity: 1;
+}

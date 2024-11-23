@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Faculty+Glyphic&family=Geist+Mono:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.hero1{
+    width: 200px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    padding: 15px;
+    background-color: white;
+    color: black;
+    transition: 0.9s;
+}
+.hero11{
+    width: 200px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    transition: 0.9s;
+}
+
+
+.hero4{
+ width: 130px ;
+ height: 130px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ /* background-color: aqua; */
+ margin-top: 60px;
+ position: relative;
+}
+.hero4::before{
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 30px;
+    width: 30px;
+    border-top: 4px solid black;
+    border-left: 4px solid black;
+}
+.hero4::after
+{
+    content: " ";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 30px;
+    width: 30px;
+    border-bottom: 4px solid black;
+    border-right: 4px solid black;
+}
+
+
+
+.hero4 img{
+    width: 100px;
+    height: 100px;
+    padding: 3px ;
+    background-color: white;
+    /* border-radius: 50%; */
+    /* margin-top: 40px; */
+}
+.pp11{
+    color: white;
+    width: 25px;
+    height: 25px;
+}
+/* hhhhhhhhhhhhhhh */
+.hero44{
+    width: 130px ;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+    margin-top: 60px;
+    position: relative;
+}
+.hero44 img{
+    width: 100px;
+    height: 100px;
+    padding: 3px ;
+    /* background-color: white; */
+}
+.hero44::before{
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 30px;
+    width: 30px;
+    border-top: 4px solid rgb(254, 252, 252);
+    border-left: 4px solid rgb(249, 245, 245);
+}
+.hero44::after{
+    content: " ";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 30px;
+    width: 30px;
+    border-bottom: 4px solid rgb(254, 254, 254);
+    border-right: 4px solid rgb(255, 255, 255);
+}
+
+
+
+
+
+
+
+
+
+
+
+/* hhhhhhhhhhhhhhhh */
+.n1{
+    text-decoration: none;
+}
+.links .e2{
+    text-transform: capitalize;
+    font-family: "Poppins", sans-serif;
+    margin-top: 20px;
+    font-weight: 500;
+    padding: 7px 58px;
+    color: black;
+    font-size: 20px;
+    /* text-transform: uppercase; */
+}
+.links .active{
+    background-color: black;
+}
+.links .e2:hover{
+    background-color: black;
+    padding: 7px 58px;
+    color: white;
+    /* border-radius: 10px 10px 10px 10px; */
+    transition: 0.6s;
+}
+.links .ee2{
+    text-transform: capitalize;
+    font-family: "Poppins", sans-serif;
+    margin-top: 20px;
+    font-weight: 500;
+    padding: 7px 58px;
+
+    color: white;
+    font-size: 20px;
+    /* text-transform: uppercase; */
+}
+.links .ee2:hover{
+    background-color: white;
+    padding: 7px 58px;
+    color: black;
+    /* border-radius: 0px 10px 10px 0px; */
+    transition: 0.6s;
+}
+.pp3{
+    position: absolute;
+    display: flex;
+    gap: 10px;
+    right:10px;
+    top: 10px;
+}
+.pp1{
+    width: 25px;
+    height: 25px;
+    color: black;
+}
+@media (max-width:450px) {
+    
+}
+
