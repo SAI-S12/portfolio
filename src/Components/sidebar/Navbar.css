@@ -109,17 +109,6 @@
     border-bottom: 4px solid rgb(254, 254, 254);
     border-right: 4px solid rgb(255, 255, 255);
 }
-
-
-
-
-
-
-
-
-
-
-
 /* hhhhhhhhhhhhhhhh */
 .n1{
     text-decoration: none;
@@ -174,7 +163,156 @@
     height: 25px;
     color: black;
 }
-@media (max-width:450px) {
-    
+@media (max-width:480px) {
+    .hero1{
+        /* position: relative;
+        left: -200px; */
+        width: 100px;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        align-items: center;
+        padding: 15px;
+        background-color: white;
+        color: black;
+        transition: 0.9s;
+    }
+    .hero11{
+        /* position: relative;
+        left: -200px; */
+        width: 100px;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        align-items: center;
+        padding: 15px;
+        background-color: black;
+        color: white;
+        transition: 0.9s;
+    }
+    .hero4{
+        width: 60px ;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background-color: aqua; */
+        margin-top: 60px;
+        position: relative;
+       }
+       .hero4 img{
+        width: 40px;
+        height: 40px;
+        padding: 3px ;
+        /* background-color: white; */
+    }
+    .hero44{
+        width: 60px ;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background-color: aqua; */
+        margin-top: 60px;
+        position: relative;
+    }
+    .hero4::before{
+        content: " ";
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 15px;
+        width: 15px;
+        border-top: 4px solid black;
+        border-left: 4px solid black;
+    }
+    .hero4::after
+    {
+        content: " ";
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        height: 15px;
+        width: 15px;
+        border-bottom: 4px solid black;
+        border-right: 4px solid black;
+    }
+    .hero44 img{
+        width: 40px;
+        height: 40px;
+        padding: 3px ;
+        /* background-color: white; */
+    }
+    .hero44::before{
+        content: " ";
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 15px;
+        width: 15px;
+        border-top: 4px solid rgb(254, 252, 252);
+        border-left: 4px solid rgb(249, 245, 245);
+    }
+    .hero44::after{
+        content: " ";
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        height: 15px;
+        width: 15px;
+        border-bottom: 4px solid rgb(254, 254, 254);
+        border-right: 4px solid rgb(255, 255, 255);
+    }
+    .links .e2{
+        text-transform: capitalize;
+        font-family: "Poppins", sans-serif;
+        margin-top: 20px;
+        font-weight: 500;
+        padding: 7px 15px;
+        color: black;
+        font-size: 15px;
+        /* text-transform: uppercase; */
+    }
+    .links .active{
+        background-color: black;
+    }
+    .links .e2:hover{
+        background-color: black;
+        padding: 7px 10px;
+        color: white;
+        /* border-radius: 10px 10px 10px 10px; */
+        transition: 0.6s;
+    }
+    .links .ee2{
+        text-transform: capitalize;
+        font-family: "Poppins", sans-serif;
+        margin-top: 20px;
+        font-weight: 500;
+        padding: 7px 15px;
+        color: white;
+        font-size: 20px;
+        /* text-transform: uppercase; */
+    }
+    .links .ee2:hover{
+        background-color: white;
+        padding: 7px 15px;
+        color: black;
+        /* border-radius: 0px 10px 10px 0px; */
+        transition: 0.6s;
+    }
+    .pp3{
+        position: absolute;
+        display: flex;
+        gap: 10px;
+        right:10px;
+        top: 10px;
+    }
+    .pp1{
+        width: 25px;
+        height: 25px;
+        color: black;
+    }
 }
 

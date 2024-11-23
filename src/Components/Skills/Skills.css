@@ -91,6 +91,8 @@ transition: 0.6s;
         display: flex;
         flex-direction: column;
         animation: fadein 3s;
+        height: 100vh;
+        gap: -50px;
     }
     .bb1{
         width: 90%;
@@ -98,23 +100,79 @@ transition: 0.6s;
         color: black;
         display: flex;
         flex-direction: column;
+        gap: -50px;
         animation: fadein 3s;
+        height: 100vh;
+    }
+    .b2 {
+        width: 90%;
+        height: 100px;
+        /* padding: 20px; */
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        /* height: 100vh; */
     }
    
     .b2 img{
-        width: 200px;
-        height:200px ;
+        width: 80px;
+        height:80px ;
     }
     .b4{
         padding: 10px 00px;
     }
     .b3{
-        padding: 20px 20px;
-        width: 80%;
+        padding: 10px 10px;
+        width: 90%;
         margin-left: 0px;
-        margin-top: 0px;
+        margin-top: 10px;
         display: flex;
         flex-direction: column;
-        
+        height: 100vh;
+        }
+        .b4{
+            padding: 5px 5px;
+        }
+        .b4 h2{
+            font-size: 20px;
+            font-weight: 600;
+            text-transform: capitalize;
+        }
+        .b4 p{
+            font-size: 12px;
+            line-height: 1.6;
+        }
+        .b5{
+            display: flex;
+            gap: 25px;
+            padding:5px 5px;
+        }
+        .b6{
+            width: 60px ;
+            height: 200px;
+            position: relative;
+        }
+        .b6 h3::after{
+            content: "";
+            height: 3px;
+            width: 0;
+            position: absolute;
+            left: 0;
+            bottom: 175px;
+            background-color: orangered;
+          }
+          .b6 h3:hover:after{
+            width: 100%;
+            transition: 0.6s;
+            }
+        .b6 h3{
+            font-size: 12px;
+            text-transform: capitalize;
+             margin: 5px 0px;
+             /* color: black; */
+             font-weight: 700;
+        }
+        .b6 p{
+             font-size: 10px;
         }
 }

@@ -18,8 +18,7 @@ const Service = ({ isOn }) => {
             <img src={pic1} alt="" />
             <div className="s6">
               <h2>web E-commerce application</h2>
-              <a href=" 
-https://shopperservice.netlify.app  "><BsArrowUpCircle className='ss2' /></a></div>
+              <a href=" https://shopperservice.netlify.app  "><BsArrowUpCircle className='ss2' /></a></div>
           </div>
           <div className="s5">
             <img src={pic2} alt="" />
@@ -30,8 +29,7 @@ https://shopperservice.netlify.app  "><BsArrowUpCircle className='ss2' /></a></d
           <div className="s5">
             <img src={pic3} alt="" />
             <div className="s6">
-              <h2>food web application</h2><a href="    
-https://foodeaterapp.netlify.app "><BsArrowUpCircle  className='ss2' /></a></div>
+              <h2>food web application</h2><a href="https://foodeaterapp.netlify.app "><BsArrowUpCircle  className='ss2' /></a></div>
           </div>
         </div>
       </div>
