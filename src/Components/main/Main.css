@@ -214,6 +214,9 @@
         width: 230px;
         height: 230px;
         position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .p10 img{
         width: 200px;
@@ -246,6 +249,9 @@
         width: 230px;
         height: 230px;
         position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .p12 img{
         width: 200px;
