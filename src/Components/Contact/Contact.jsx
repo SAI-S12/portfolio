@@ -12,8 +12,8 @@ const Contact = ({isOn}) => {
       <div className="c2">
         <div className="c3">
            <h2> Contact me</h2>
-           <p><MdEmail/>sssainath12@gmail.com</p>
-           <p><BiPhone/>+91 9573563580</p>
+           <p><MdEmail/>sxxxxxx12@gmail.com</p>
+           <p><BiPhone/>+91 9XXXXXXXX0</p>
            <p><CiLocationOn/>kamalanagr,chaitanyapuri ,hyderabad </p>
            <p><LiaLinkedin/>linkedin.com/sai</p>
            <p><DiGithub/>github/.com/SAI-S12</p>
