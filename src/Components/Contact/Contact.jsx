@@ -16,7 +16,7 @@ const Contact = ({isOn}) => {
            <p><BiPhone/>+91 9XXXXXXXX0</p>
            <p><CiLocationOn/>kamalanagr,chaitanyapuri ,hyderabad </p>
            <p><LiaLinkedin/>linkedin.com/sai</p>
-           <p><DiGithub/>github/.com/SAI-S12</p>
+           <p><DiGithub/>github/.com/XX/X12</p>
            <div className="icons">
 
            </div>
