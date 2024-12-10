@@ -46,9 +46,8 @@ const Contact = ({isOn}) => {
         </div>
         <div className="c4">
         <form action="" onSubmit={onSubmit}>
-         
         <div className="c6">
-        <div className="cc"><h2>Get in Touch</h2></div>
+           <div className="cc"><h2>Get in Touch</h2></div>
           <input type="text" name="name" placeholder='Your name'/>
           <input type="text" name="email" placeholder='Your Email' />
           <textarea name="message" id="" placeholder='your message'></textarea>
