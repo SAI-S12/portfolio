@@ -12,7 +12,7 @@ const Main = ({setOn,isOn}) => {
         <div className="p3">
            <div className="p5">
             <h1 className='p6'>Hello I'm Sai</h1>
-            <h1 className='p7'>Web Developer</h1>
+            <h1 className='p7' contentEditable="true">Web Developer</h1>
             <p className='p8'>seamlessly blending the world of code and creativity as web developer and UI/UX designer , creating captivationg digital experience</p>
             <div className={isOn?"icns":"icons"}>
             <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
