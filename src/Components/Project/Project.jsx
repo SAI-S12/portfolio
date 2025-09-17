@@ -8,7 +8,7 @@ const Project = ({isOn,setOn}) => {
   return (
     <div className={isOn?"t1":"tt1"}>
            <div className='t2'>
-                   <h2>services</h2>
+                   <h2>Developement</h2>
                    <div className="t3">
                     <div className={isOn?"t4":"tt4"}>
                       <CgCode  className='t8'/>

@@ -5,6 +5,7 @@ import { BiPhone } from 'react-icons/bi'
 import { CiLocationOn } from 'react-icons/ci'
 import { LiaLinkedin } from 'react-icons/lia'
 import { DiGithub } from 'react-icons/di'
+import resume from "../../assets/sairesume12.pdf"
 
 const Contact = ({isOn}) => {
   const [result, setResult] = React.useState("");
@@ -37,12 +38,12 @@ const Contact = ({isOn}) => {
       <div className="c2">
         <div className="c3">
            <h2> Contact me</h2>
-           <p><MdEmail/>sxxxxxx12@gmail.com</p>
-           <p><BiPhone/>+91 9XXXXXXXX0</p>
+           <p><MdEmail/>sssainath12@gmail.com</p>
+           <p><BiPhone/>+91 9573563580</p>
            <p><CiLocationOn/>Panjagutta,hyderabad </p>
-           <p><LiaLinkedin/>linkedin.com/XYZ</p>
+           <p><LiaLinkedin/>linkedin.com/sai12</p>
            <p><DiGithub/>github/.com/XXX/X12</p>
-           <button className={isOn?"c5":"c55"}>Download CV</button>
+           <button className={isOn?"c5":"c55"}><a href={resume} download="resume">Download cv</a></button>
         </div>
         <div className="c4">
         <form action="" onSubmit={onSubmit}>
