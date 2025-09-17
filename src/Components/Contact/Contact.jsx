@@ -41,8 +41,8 @@ const Contact = ({isOn}) => {
            <p><MdEmail/>sssainath12@gmail.com</p>
            <p><BiPhone/>+91 9573563580</p>
            <p><CiLocationOn/>Panjagutta,hyderabad </p>
-           <p><LiaLinkedin/>linkedin.com/sai12</p>
-           <p><DiGithub/>github/.com/XXX/X12</p>
+           <p><LiaLinkedin/>LinkedIN</p>
+           <p><DiGithub/>GitHub</p>
            <button className={isOn?"c5":"c55"}><a href={resume} download="resume">Download cv</a></button>
         </div>
         <div className="c4">
