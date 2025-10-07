@@ -19,20 +19,21 @@ const Skills = ({ isOn, setOn }) => {
         </div>
         <div className="b5">
           <div className="b6">
-            <h3 className='ss'>skills</h3>
+            <h3 className='ss'>Technilogies</h3>
             <p>java </p>
             <p>sql</p>
             <p>nodejs </p>
             <p>react js</p>
+            <p>React native</p>
             <p>javascript</p>
             <p>html</p>
             <p>css</p>
           </div>
           <div className="b6">
-            <h3 className='ss'>experience In </h3>
+            <h3 className='ss'>Skills</h3>
             <p>web developement</p>
-            <p>mern stack developement</p>
-            <p>database management</p>
+            <p>Data analysis</p>
+            <p>Mobile App Developement</p>
             <p>java developement</p>
           </div>
           <div className="b6">
