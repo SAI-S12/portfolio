@@ -133,36 +133,37 @@ a{
     width: 80px;
     border-bottom: 7px solid white;
     border-right: 7px solid white;
-
 }
 .icons{
     display: flex;
     gap: 15px;
     margin-top: 15px;
-  
     /* margin-bottom: 10px; */
 }
 .icons svg{
  width: 30px;
  height: 20px;
- border: 1px solid black;
+ border :none;
+ color: black;
  padding: 2px 2px;
+ background-color:rgb(233, 232, 235);
+ box-shadow: 3px 3px 2px black;
  border-radius: 10%;
 }
 .icns{
     display: flex;
     gap: 15px;
     margin-top: 15px;
-    
-  
 }
 .icns svg{
     width: 30px;
     height: 20px;
     border-radius: 10%;
+    color: white;
     /* border: 1px solid black; */
+     box-shadow: 3px 3px 2px rgb(252, 251, 251);
     padding: 2px 2px ;
-    background-color: rgb(177, 173, 173);
+    background-color: rgb(7, 0, 0);
 }
 .p99{
     background-color:black ;

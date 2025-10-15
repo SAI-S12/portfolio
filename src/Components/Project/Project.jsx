@@ -18,14 +18,14 @@ const Project = ({isOn,setOn}) => {
                     </div>
                     <div className={isOn?"t4":"tt4"}>
                       <BsApp className='t8'/>
-                       <h3>content creation</h3>
-                       <p>establishing and creating  acompany brands though engaging and intresting online written content.maintaining and updating websites ,blogging ,article writing, photography, videography .</p>
+                       <h3>Mobile Developement</h3>
+                       <p>specialize in building high-performance mobile applications that combine sleek design with powerful functionality. Whether you're launching a brand or scaling an existing product, our mobile solutions are crafted to captivate users and drive results.</p>
                        <a>learn more<BiArrowToRight/></a>
                       </div>
                       <div className={isOn?"t4":"tt4"}>
                         <CgDesignmodo className='t8'/>
-                       <h3>UI/UX Design</h3>
-                       <p>creating a user-centered design for digital products such as websites ,mobil apps and software interface .primary focus is on enhancing user satisfaction and usabilityu by improving accesiblity efficiancy and aesthetics of product </p>
+                       <h3>Data Analysis</h3>
+                       <p>turn raw data into actionable insights that drive smarter decisions. From business metrics to user behavior, our analysis helps uncover patterns, optimize performance, and fuel growth. </p>
                        <a>learn more<BiArrowToRight/></a>
                       </div>
                    </div>

@@ -19,7 +19,7 @@ const Skills = ({ isOn, setOn }) => {
         </div>
         <div className="b5">
           <div className="b6">
-            <h3 className='ss'>Technilogies</h3>
+            <h3 className='ss'>Technologies</h3>
             <p>java </p>
             <p>sql</p>
             <p>nodejs </p>
